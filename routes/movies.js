@@ -1,3 +1,4 @@
+const Joi = require('joi');
 const {Movie, validate} = require('../models/movie'); 
 const {Genre} = require('../models/genre');
 const mongoose = require('mongoose');

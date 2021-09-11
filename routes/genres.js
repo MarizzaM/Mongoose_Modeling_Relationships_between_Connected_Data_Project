@@ -1,3 +1,4 @@
+const Joi = require('joi');
 const {Genre, validate} = require('../models/genre');
 const mongoose = require('mongoose');
 const express = require('express');
